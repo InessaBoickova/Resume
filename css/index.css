@@ -1,0 +1,24 @@
+@import url(./block/menu.css);
+@import url(./block/promo.css);
+@import url(./block/sidepanel.css);
+@import url(./block/title.css);
+@import url(./block/media.css);
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.devider{
+    width: 60px;
+    height: 3px;
+    background-color: #FFA501;
+    margin: 25px auto 0 auto;
+}
+
