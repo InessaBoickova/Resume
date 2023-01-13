@@ -9,6 +9,9 @@
     top: 230px;
     left: 20px;
 }
+.sidepanel .sidepanel__link{
+    text-decoration: none ;
+}
 
 .sidepanel  .sidepanel__link svg path:hover{
     fill: #FFA501;

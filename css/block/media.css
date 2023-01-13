@@ -36,6 +36,7 @@
     }
 
     .skills__wrap {
+        padding-left: 0;
         grid-template-columns: repeat(2, 350px);
         justify-content: space-evenly;
     }
@@ -56,7 +57,6 @@
     }
     
    .promo {
-        height: 100vh;
         padding-top: 6%;
     }
 
@@ -91,8 +91,7 @@
     }
    
     .promo {
-        height: 100%;
-        padding-bottom: 100px;
+        padding: 30px 0 80px 0;
     }
     .promo__photo {
        display: none;
@@ -105,7 +104,7 @@
         grid-template-columns: 450px;
         row-gap: 30px
     }
-    
+
     .skills{
         padding-bottom: 50px;
     }
@@ -142,5 +141,8 @@
 
     .title__section-subtitle {
         font-size: 26px;
+    }
+    .skills__wrap {
+        padding-left: 10px;
     }
 }

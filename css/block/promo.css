@@ -1,8 +1,7 @@
 .promo {
-    height: 70vh;
     background: rgb(245,222,179);
     background: linear-gradient(90deg, rgba(245,222,179,1) 0%, rgba(255,214,138,1) 42%, rgba(255,251,242,1) 100%);
-    padding-top: 15%;
+    padding: 15% 0 10% 0;
 }
 
 .promo .promo__wrapper{

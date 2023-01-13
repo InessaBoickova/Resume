@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    background: rgb(245,222,179);
+    background: linear-gradient(90deg, rgba(245,222,179,1) 0%, rgba(255,214,138,1) 42%, rgba(255,251,242,1) 100%);
+}
+.footer_social {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .footer__link {
+    cursor: pointer;
+    text-decoration: none ;
+    width: 50px;
+}
+
+.footer .footer__link svg path:hover{
+    fill: #FFA501;
+}
