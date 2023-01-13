@@ -78,12 +78,12 @@
     width: 15px;
     height: 15px;
     border-radius: 100%;
-    border: 1px solid rgb(24, 100, 161);
+    border: 1px solid rgb(84, 77, 12);
     transition: all .9s;
 }
    
 .menu .menu__block .menu__list .menu__link:hover:before {
-    background-color:rgb(53, 140, 211);
+    background-color:rgb(214, 216, 150);
 
 }
 

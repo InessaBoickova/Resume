@@ -1,23 +1,127 @@
-@media(max-width:1439px) {
-
-}
-
 @media(max-width:1200px) {
-  
+    .sidepanel {
+        display: none;
+    }
+    .container {
+        max-width: 950px;
+    }
+    .promo .promo__subtitle {
+        margin-top: 50px;
+    }
+    .promo .promo__title {
+        max-width: 520px;
+        margin: 10px 0 0 20px;
+    }
+    .title_fz16{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .title_fz48px{
+        font-size: 30px;
+    }
+    .promo__photo {
+        margin: -20px 0 0 -70px;
+    }
+    .promo__photo .promo__img {
+        max-height: 450px;
+        min-width: 250px;
+    }
+
+    .about__wrapper{
+        grid-template-columns: repeat(2,325px);
+        column-gap: 150px;
+    }
+    .title__section-subtitle{
+        font-size: 32px;
+    }
 }
 
 
 @media(max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+    .title_fz48 {
+        font-size: 26px;
+        line-height: 39px;
+    }
    
+    .title_fz20 {
+        font-size: 18px;
+    }
+    
+   .promo {
+        height: 100vh;
+        padding-top: 6%;
+    }
+
+    .promo__photo {
+       margin-top: 60px;
+    }
+
+    .promo__photo .promo__img {
+        max-height: 400px;
+    }
+
+   .about__wrapper {
+        padding: 30px 10px 0 10px;
+        grid-template-columns: repeat(2, 315px);
+        column-gap: 70px;
+    }
+    .title__section-subtitle{
+        font-size: 28px;
+    }
 }
 
 
 @media(max-width:768px) {
+    .container {
+        max-width: 540px;
+    }
+    .title_fz48 {
+        font-size: 24px;
+    }
    
+    .promo {
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .promo__photo {
+       display: none;
+    }
+
+    .about__wrapper {
+        padding: 30px 20px 20px 70px;
+        grid-template-columns: 450px;
+        row-gap: 30px
+    }
 }
 
 
 @media(max-width: 576px) {
-   
+    .container {
+        max-width: 100%;
+    }
+    .hamburger {
+        right: 20px;
+    }
+    .title_fz48 {
+        font-size: 21px;
+    }
+    .promo{
+        padding-left: 20px;
+    }
     
+    .about__wrapper {
+        padding: 40px 0 0 60px;
+        grid-template-columns: 320px;
+        row-gap: 40px
+    }
+    .about__item-head {
+        padding: 15px 0 0 60px;
+    }
+
+    .title__section-subtitle {
+        font-size: 26px;
+    }
 }
