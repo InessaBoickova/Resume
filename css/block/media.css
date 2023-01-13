@@ -34,6 +34,11 @@
     .title__section-subtitle{
         font-size: 32px;
     }
+
+    .skills__wrap {
+        grid-template-columns: repeat(2, 350px);
+        justify-content: space-evenly;
+    }
 }
 
 
@@ -71,6 +76,9 @@
     .title__section-subtitle{
         font-size: 28px;
     }
+    .skills__wrap {
+        grid-template-columns: repeat(2, 340px);
+    }
 }
 
 
@@ -89,11 +97,22 @@
     .promo__photo {
        display: none;
     }
-
+    .about{
+       padding-bottom: 0;
+    }
     .about__wrapper {
-        padding: 30px 20px 20px 70px;
+        padding: 30px 20px 30px 70px;
         grid-template-columns: 450px;
         row-gap: 30px
+    }
+    
+    .skills{
+        padding-bottom: 50px;
+    }
+    .skills__wrap {
+        margin-top: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 25px;
     }
 }
 

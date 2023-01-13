@@ -1,22 +1,15 @@
 .skills{
-    padding: 30px 20px 150px 70px;
+    padding: 30px 0 150px 0;
 }
 
 .skills__wrap{
+    padding-left: 40px;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3,350px);
-    grid-template-rows: repeat(2,70px) ;
+    grid-template-columns: repeat(3, 340px);
     grid-auto-rows: minmax(70px,auto);
-    column-gap: 43px;
-    row-gap: 30px;
-}
-
-.skills__ratings .skills__ratings-item {
-    display: grid;
-    grid-template: 21px 14px/200px 35px;
-    justify-content: space-between;
-    align-content: space-between;
+    column-gap: 20px;
+    row-gap: 25px;
 }
 
 .skills__ratings-item  .title_fz16{
@@ -38,9 +31,7 @@
 }
 
 .skills__ratings-interest{
-    color: white;
-    font-size: 14px;
-    line-height: 21px;
+    display: none;
 }
 
 .skills__ratings-line{
