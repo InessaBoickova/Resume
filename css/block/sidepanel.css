@@ -16,7 +16,8 @@
     transform: rotate(0.75turn);
     margin-right: -3px;
 }
-.sidepanel  .sidepanel__link svg path:hover {
+.sidepanel  .sidepanel__link:hover path{
+    transition: all 0.3s;
     fill: var(--hover-color);
 }
 .sidepanel .sidepanel__divider {
@@ -28,7 +29,7 @@
     width: 25px;
     height: 150px;
 }
-.sidepanel .sidepanel__text  span {
+.sidepanel .sidepanel__text span {
     display: block;
     width: 150px;
     transform: rotate(-90deg) translate(-35%, -260%);

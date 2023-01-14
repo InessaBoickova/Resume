@@ -8,12 +8,14 @@
     align-items: center;
 }
 .slider .slider__btn {
+    
     cursor: pointer;
 }
-.slider .slider__btn path, polygon:hover {
+.slider .slider__btn:hover path  {
+    transition: all 0.3s;
     fill: var( --hover-color);
 }
-.slider .slider__btn polygon:active {
+.slider .slider__btn:active polygon {
     fill:#915e00;
 }
 .slider  .slider__wrapper {

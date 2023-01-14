@@ -45,6 +45,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .promo .promo__link:hover {
+    transition: all 0.3s;
     color: #000000;
     background: var(--hover-color)
 }
