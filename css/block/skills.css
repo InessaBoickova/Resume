@@ -1,8 +1,7 @@
-.skills{
-    padding: 30px 0 150px 0;
+.skills {
+    padding: 30px 0 100px 0;
 }
-
-.skills__wrap{
+.skills .skills__wrap {
     padding-left: 40px;
     margin-top: 40px;
     display: grid;
@@ -11,14 +10,13 @@
     column-gap: 20px;
     row-gap: 25px;
 }
-
-.skills__ratings-item  .title_fz16{
+.skills .title_fz16 {
     margin-bottom: -6px;
     padding-left: 12px;
     position: relative;
     
 }
-.skills__ratings-item .title_fz16:after{
+.skills .title_fz16:after {
     content:'';
     position: absolute;
     z-index: -1;
@@ -29,12 +27,10 @@
     border-radius: 100%;
     background: #FFA501;
 }
-
-.skills__ratings-interest{
+.skills .skills__ratings .skills__ratings-interest {
     display: none;
 }
-
-.skills__ratings-line{
+.skills .skills__ratings .skills__ratings-line {
     margin-top: 20px;
     width: 100%;
     height: 14px;
@@ -43,8 +39,7 @@
     grid-column: 1/3;
    
 }
-
-.skills__ratings-line span {
+.skills .skills__ratings .skills__ratings-line span {
     display: block;
     background: #FFA501;
     height: 100%;

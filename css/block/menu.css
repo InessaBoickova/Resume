@@ -9,18 +9,15 @@
     align-items: flex-end;
     cursor: pointer;
 }
-
 .hamburger  span {
     display: block;
     width: 30px;
     height: 3px;
     background: #151812;
 }
-
 .hamburger span.long {
     width: 36px;
 }
-
 .menu {
     position: fixed;
     top: 0;
@@ -30,33 +27,28 @@
     z-index: 10;
     visibility: hidden;
     opacity: 0;
-    transition: all .6s;
+    transition: all 1s;
 }
-
 .menu .menu__block {
     z-index: 10;
-    padding: 140px 0px 0px 40px;
+    padding: 130px 0px 0px 40px;
     position: relative;
-    width: 345px;
+    width: 300px;
     height: 100%;
     background: #FFA501;
-    transition: all .6s;
+    transition: all 1s;
 }
-
-.menu .menu__block .menu__close {
+.menu .menu__close {
     position: absolute;
     top: 25px;
     right: 25px;
     cursor: pointer;
 }
-
-.menu .menu__block .menu__list{
+.menu  .menu__list {
     list-style-type: none;
     padding-left: 35px;
-  
 }
-
-.menu .menu__block .menu__list .menu__link {
+.menu .menu__link {
     position: relative;
     font-weight: bold;
     font-size: 24px;
@@ -64,13 +56,11 @@
     margin-bottom: 15px;
     transition: all 5s;
 }
-
-.menu .menu__block .menu__list .menu__link a {
+.menu .menu__link a {
     color: #ffffff;
     text-decoration: none;
 }
-
-.menu .menu__block .menu__list .menu__link:before {
+.menu .menu__link:before {
     content: '';
     position: absolute;
     left: -35px;
@@ -80,24 +70,20 @@
     border-radius: 100%;
     border: 1px solid rgb(84, 77, 12);
     transition: all .9s;
-}
-   
-.menu .menu__block .menu__list .menu__link:hover:before {
+}  
+.menu .menu__link:hover:before {
     background-color:rgb(214, 216, 150);
-
 }
-
-.menu .menu__overlay{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        opacity: 0.75;
+.menu .menu__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.75;
 }
-
-.active{
+.active {
     opacity: 1;
     left: 0;
     visibility: visible;
