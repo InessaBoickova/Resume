@@ -17,5 +17,5 @@
 }
 
 .footer .footer__link svg path:hover {
-    fill: #FFA501;
+    fill: var(--hover-color);
 }

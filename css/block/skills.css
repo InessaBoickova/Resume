@@ -25,7 +25,7 @@
     width: 36px;
     height: 36px;
     border-radius: 100%;
-    background: #FFA501;
+    background: var(--main-color);
 }
 .skills .skills__ratings .skills__ratings-interest {
     display: none;
@@ -41,7 +41,7 @@
 }
 .skills .skills__ratings .skills__ratings-line span {
     display: block;
-    background: #FFA501;
+    background: var(--main-color);
     height: 100%;
     border-radius: 4px;
 }

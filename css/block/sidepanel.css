@@ -13,7 +13,7 @@
     text-decoration: none ;
 }
 .sidepanel  .sidepanel__link svg path:hover {
-    fill: #FFA501;
+    fill: var(--hover-color);
 }
 .sidepanel .sidepanel__divider {
     width: 2px;

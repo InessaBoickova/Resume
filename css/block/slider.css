@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 .slider .slider__btn path, polygon:hover {
-    fill:#FFA501;
+    fill: var( --hover-color);
 }
 .slider .slider__btn polygon:active {
     fill:#915e00;
